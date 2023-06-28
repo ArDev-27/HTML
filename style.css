@@ -6,6 +6,12 @@ html {
   margin: 0;
 }
 
+nav ul li a{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
 a {
   text-decoration: none;
   font-size: 30px;
