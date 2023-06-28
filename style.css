@@ -9,7 +9,7 @@ html {
 nav ul li a{
   justify-content: center;
   align-items: center;
-  display: flex;
+  display: flex ;
 }
 
 a {
