@@ -9,11 +9,26 @@
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="image.html">Image</a></li>
+        <li><a href="image2.html">picture</a></li>
       </ul>
     </nav>
-    <h1>image Elements</h1>
+    <h1 style="margin-bottom: 1200px">image Elements</h1>
 
-    <img src="img/workspace2.jpg" alt="" width="350" srcset="img/workspace2.jpg 500w, img/workspace.jpg 800w, img/workspace3.jpg 1500w"/>
+    <img
+      src="img/workspace2.jpg"
+      alt=""
+      width="350"
+      srcset="
+        img/workspace2.jpg  500w,
+        img/workspace.jpg   700w,
+        img/workspace3.jpg 1000w
+      "
+      sizes="(min-width: 1000px) 50vw"
+      loading="lazy"
+    />
+    <figure>
+      <img src="img/workspace.jpg" alt="" width="350" />
+      <figcaption>WorkSpace minimalis dan elegan</figcaption>
+    </figure>
   </body>
 </html>
