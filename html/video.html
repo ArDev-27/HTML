@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Video</title>
     <style>
+      nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
       nav ul li a {
         text-decoration: none;
         color: #333;
@@ -12,6 +17,7 @@
     </style>
   </head>
   <body>
+    <nav>
       <ul>
         <li><a href="/index.html">Home</a></li>
         <li><a href="image.html">Picture I</a></li>
@@ -32,14 +38,30 @@
       src="/video/NOH SALLEH - ANGIN KENCANG official music video.mp4"
       width="450"
       controls
+      class="video"
     ></video>
     <figure>
       <figcaption>NOH SALLEH - ANGIN KENCANG</figcaption>
       <video controls width="450" poster="/img/poster_angin-kencang.jpg">
-        <source src="/video/NOH-SALLEH-ANGIN-KENCANG-official-music-video.webm" type="video/webm">
-        <source src="/video/NOH SALLEH - ANGIN KENCANG official music video.mp4" type="video/mp4">
+        <source
+          src="/video/NOH-SALLEH-ANGIN-KENCANG-official-music-video.webm"
+          type="video/webm"
+        />
+        <source
+          src="/video/NOH SALLEH - ANGIN KENCANG official music video.mp4"
+          type="video/mp4"
+        />
         Browser ini tidak mendukung <code>video</code>
       </video>
     </figure>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/0A76RGMVRpg"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
   </body>
 </html>
